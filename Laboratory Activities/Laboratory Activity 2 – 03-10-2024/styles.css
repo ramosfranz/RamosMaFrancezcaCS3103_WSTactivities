@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.form {
+    background-color: blanchedalmond;
+    width: 90%; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.container {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.item {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#pic {
+    width: 25%;
+}
+
