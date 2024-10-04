@@ -14,13 +14,16 @@ body {
 }
 
 .form {
-    background-color: #caa88b;
     width: 80%; 
     display: flex; 
     flex-wrap: wrap; 
     border-radius: 5%;
     border: 5px solid #f7f2ea;
+    background-image: url('assets/lines.png'); 
+    background-size: 20%; 
+    background-repeat: round;
 }
+
 
 .container {
     width: 33.33%;
@@ -52,6 +55,7 @@ body {
 
 .inner-pic {
     width: 60%; 
+    align-content: baseline;
     display: block; 
     margin: 0 auto;
     transition: transform 0.3s ease; 
@@ -65,18 +69,44 @@ body {
 h4 {
     font-size: 120%;
     margin: 0; 
-    padding: 0; 
+    padding: 2px 2px; 
+    line-height: 1.0;
 }
 
+#third-column h2{
+    padding: 0; 
+    margin: 0;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
 
 h2 {
-    margin: 0; 
-    padding: 0; 
+    font-size: 230%;
+    margin: 2% auto;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f7f2ea;
+    text-shadow: 
+    -2px -2px 0 #a47257,
+     2px -2px 0 #a47257,
+    -2px  2px 0 #a47257,
+     2px  2px 0 #a47257;
 }
 
 p {
     margin: 0; 
     padding: 0;
+    line-height: 1.2;
+    font-size: 70%;
+    padding: 3px;
+}
+
+.advice {
+    line-height: normal;
+    font-size: 90%;
 }
 
 
@@ -105,6 +135,7 @@ h1 {
     background-image: url('assets/grid.png'); 
     background-size: 40%; 
     background-repeat: repeat; 
+    border:3px dotted #e0c38c;
 }
 
 
@@ -155,11 +186,12 @@ h1 {
 
 #second-column .content {
     background-color: #f7f2ea;
-    padding: 10px; 
+    padding: 4px 2px; 
     border-radius: 5%; 
     background-image: url('assets/grid.png'); 
     background-size: 40%; 
     background-repeat: repeat; 
+    border:3px dotted #e0c38c
 }
 
 #third-column .content {
@@ -169,6 +201,7 @@ h1 {
     background-image: url('assets/grid.png'); 
     background-size: 40%; 
     background-repeat: repeat; 
+    border:3px dotted #e0c38c
 }
 
 #third-column .item {
@@ -178,13 +211,15 @@ h1 {
 #first-column {
     align-items: center;
     justify-content: space-around;
-    border: 1px dashed #f7f2ea;
+    border: 2px dashed #f7f2ea;
     border-radius: 5%;
+
 }
 
 #second-column {
     align-items: center;
     justify-content: space-around;
+    align-content: stretch;
 }
 
 #third-column {
