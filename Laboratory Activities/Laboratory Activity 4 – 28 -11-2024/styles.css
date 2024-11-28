@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    height: 100vh;
+    background-image: url(assets/bg_tryA.gif);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;      
+    height: 100vh;          
+}
+
+.main {
+    width: 40%; 
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 2%;
+    border: 2px solid lightgrey;
+    background: linear-gradient(to bottom, white 97%, #F8BAD4 100%);
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+
+#intro {
+    width: 60%;
+    border-radius: 50%;
+    outline: 5px solid white;
+    box-shadow: 0 10px 20px #CD7298;
+}
+
+#decorative {
+    color: #CD7298;
+    font-size: 1.5rem;
+}
+
+.page:hover {
+    font-weight: 700;
+    color: #CD7298;
+    cursor: pointer;
+}
+
+#transition {
+    width: 5%;
+    display: block;
+}
+
+.content-container {
+    display: none; 
+    width: 40%; 
+    max-width: 600px; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 2%;
+    border: 2px solid lightgrey;
+    background: linear-gradient(to bottom, white 97%, #F8BAD4 100%);
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.bold {
+    font-weight: 800;
+    color:#CD7298;
+}
+
+.title {
+    font-weight: 800;
+    color:#CD7298;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+#interests-container .content {
+    margin-bottom: 1rem; 
+}
